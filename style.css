@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans, sans-serif, Arial, Helvetica, sans-serif;
+  color: #3c354f;
+}
+.primary-text {
+}
+.pink-text {
+  color: #ff42a5;
+}
+.pink-button {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  background: #ff42a5;
+  border: none;
+  border-radius: 50px;
+}
+.blue-button {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  background: #4ec5f7;
+  border: none;
+  border-radius: 50px;
+}
+.primary-heading {
+}
+/* ======================================== */
+/* navigation part starts here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 200px;
+}
+.nav-logo {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-title {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-pages {
+  display: flex;
+  align-items: center;
+}
+.nav-pages li {
+  padding-right: 32px;
+  list-style: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.nav-pages a {
+  text-decoration: none;
+}
+.nav-others {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: fit-content;
+  padding: 17px 20px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.nav-others img {
+  width: 20px;
+  height: 20px;
+}
+/* navigation part ends here  */
+/* ======================================== */
+/* banner section starts here  */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  background-image: url("images/Group\ 14.png");
+  background-repeat: no-repeat;
+}
+.banner-text {
+}
+.play {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.banner-list li {
+  color: #534c64;
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  list-style: none;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+.banner-button {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
+.banner-img img {
+  width: 800px;
+  height: 700px;
+}
+
+/* ======================================== */
+/* game demo styles  */
+.games-demo-container {
+}
+.games-demo-title {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 120px;
+}
+.funny {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.games-demo-description {
+  text-align: center;
+}
+.games-demos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 100px;
+  align-items: center;
+}
+.game-list img {
+  width: 350px;
+  height: 400px;
+  padding-bottom: 25px;
+}
+.game-list p {
+  text-align: center;
+  width: 350px;
+}
+
+/* ======================================== */
+/* promotion section starts here */
+.promotion-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 350px;
+  background: rgba(255, 66, 165, 0.03);
+}
+.promotion-text {
+  width: 400px;
+  text-align: right;
+}
+.promotion-title {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  padding-bottom: 25px;
+}
+.promotion-gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.promotion-description {
+  font-family: Work Sans;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+.promotion-images {
+}
+.big-img {
+  width: 400px;
+  display: block;
+}
+.small-img {
+  width: 200px;
+  position: relative;
+  bottom: 150px;
+  right: 100px;
+}
+
+/* ======================================== */
+/* position styling starts here  */
+.position-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff42a5;
+}
+.position-text {
+  padding-left: 200px;
+  width: 50%;
+}
+.position-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.position-description {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.positions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.designation-list li {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 40px;
+  list-style: none;
+}
+.location-list li {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+}
+.white-button {
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  border: none;
+  border-radius: 30px;
+}
+.position-img img {
+}
+
+/* position styling ends here  */

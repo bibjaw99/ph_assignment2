@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+  /* navigation starts here  */
+  .nav-container,
+  .nav-links,
+  .nav-pages {
+    flex-direction: column;
+  }
+  .nav-container {
+    margin-top: 100px;
+  }
+  .nav-pages {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .nav-pages li {
+    padding-top: 35px;
+  }
+  .nav-others p {
+    width: 200px;
+  }
+  /* navigation ends here  */
+
+  /* ====================================== */
+  /* banner section starts here  */
+  .banner-container {
+    flex-direction: column-reverse;
+    background: none;
+  }
+  .banner-text,
+  .banner-img img {
+    width: 400px;
+    height: 300px;
+  }
+  .banner-text {
+    margin-top: 130px;
+  }
+  .banner-list li {
+    text-align: center;
+  }
+  .banner-button {
+    justify-content: center;
+  }
+
+  /* banner section end here */
+  /* ====================================== */
+
+  /* games demons starts here  */
+  .games-demo-container {
+    padding-top: 150px;
+  }
+  .games-demo-title {
+    padding: 0 80px;
+  }
+  .games-demo-description {
+    padding: 30px 50px;
+  }
+  .games-demos {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    padding: 0 90px;
+    align-items: center;
+    gap: 20px;
+  }
+  .game-list img {
+    width: 250px;
+    height: 300px;
+  }
+  .game-list p {
+    width: 250px;
+  }
+
+  /* ====================================== */
+  /* promotion section starts here  */
+  .promotion-container {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+  }
+  .promotion-text {
+    text-align: center;
+  }
+  .promotion-images {
+    margin-top: 50px;
+  }
+  .big-img {
+    width: 300px;
+    display: block;
+  }
+  .small-img {
+    width: 100px;
+    position: relative;
+    bottom: 75px;
+    right: 50px;
+  }
+  /* promotion section ends here  */
+
+  /* ============================================== */
+  .position-container {
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+  .position-text {
+    padding: 0 50px;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 60px;
+  }
+  .designation-list li {
+    text-align: left;
+  }
+  .position-img img {
+    width: 90vw;
+  }
+}
